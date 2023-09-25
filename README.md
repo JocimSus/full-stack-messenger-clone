@@ -34,3 +34,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+don't forget to install latest npm package, check chatgpt latest chat about it https://chat.openai.com/c/6c070e6c-d728-46bb-8f34-b780f6f359c8:
+
+```bash
+npm install -g npm@latest
+# then
+node -v
+# then
+npm -v
+# then
+npm cache clean -f
+```
+
+from https://code.visualstudio.com/docs/getstarted/settings#:~:text=Depending%20on%20your%20platform%2C%20the,Code%2FUser%2Fsettings.json
+
+add
+"files.associations": {
+"\*.css": "tailwindcss"
+}
+to settings.json in C:\Users\siswa\AppData\Roaming\Code\User
+
+install tailwind css intellisense (settings sync should fix it)
