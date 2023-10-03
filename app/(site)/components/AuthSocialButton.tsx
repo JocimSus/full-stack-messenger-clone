@@ -11,6 +11,8 @@ const AuthSocialButton: React.FC<AuthSocialButtonProps> = ({
 }) => {
   return (
     <button
+      type="button"
+      onClick={onClick}
       className="
         inline-flex
         w-full
@@ -24,7 +26,7 @@ const AuthSocialButton: React.FC<AuthSocialButtonProps> = ({
         ring-1
         ring-inset
         ring-gray-300
-        hover:bg-gray-500
+        hover:bg-gray-200
         focus:outline-offset-0
     "
     >
